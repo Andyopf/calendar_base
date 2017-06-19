@@ -16,8 +16,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var backBtn: UIButton!
     @IBOutlet weak var forwardBtn: UIButton!
     @IBOutlet weak var todayBtn: UIButton!
-    @IBOutlet weak var calendarView: UIView!
-
+    @IBOutlet weak var calendarView: UICollectionView!
+    
+    
     
     
     
@@ -31,22 +32,6 @@ class ViewController: UIViewController {
         
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        
-        super.viewDidAppear(animated)
-        
-        
-        
-        
-    }
-    
-    
-    override func viewDidLayoutSubviews() {
-        
-        super.viewDidLayoutSubviews()
-        
-        
-    }
     
     
     
