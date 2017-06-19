@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var backBtn: UIButton!
     @IBOutlet weak var forwardBtn: UIButton!
     @IBOutlet weak var todayBtn: UIButton!
-    @IBOutlet weak var calendarView: UICollectionView!
+    @IBOutlet weak var calendarView: CalendarView!
     
     
     
