@@ -305,6 +305,7 @@
 				629C3FCC1EE05E0000A9BC8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

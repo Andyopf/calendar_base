@@ -7,19 +7,51 @@
 //
 
 import UIKit
+import EventKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var monthLbl: UILabel!
+    @IBOutlet weak var yearLbl: UILabel!
+    @IBOutlet weak var backBtn: UIButton!
+    @IBOutlet weak var forwardBtn: UIButton!
+    @IBOutlet weak var todayBtn: UIButton!
+    @IBOutlet weak var calendarView: UIView!
+
+    
+    
+    
+    
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        super.viewDidAppear(animated)
+        
+        
+        
+        
     }
-
-
+    
+    
+    override func viewDidLayoutSubviews() {
+        
+        super.viewDidLayoutSubviews()
+        
+        
+    }
+    
+    
+    
 }
+
+
+
 
